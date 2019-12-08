@@ -24,12 +24,6 @@ window.onload= () => {
       demonWord.className = "demon anim"
     }
   }
-
-
-
-    // document.getElementsByClassName("modal")[0].style.display = "block"
-    // document.getElementsByClassName("modal")[1].style.display = "block"
-    // document.body.className = "modalon"
 }
 
 var screenshots = {
