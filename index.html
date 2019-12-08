@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Juniper's Knot</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="normalize.css" />
+  <link rel="stylesheet" type="text/css" href="juniper.css" />
+
+  <script src="anims.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo"><h1><img src="logo.png"></h1></div>
+
+    <div><img class="portrait" id ="portrait" src="portrait.png"></div>
+
+    <div class="blurbs" id="blurbs">
+      <div class="blurb one" id="blurb-one">
+        <span>One autumn</span>
+        <span>afternoon,</span>
+        <span>in a quiet town,</span>
+      </div>
+
+      <div class="blurb two" id="blurb-two">
+        <span>a young boy</span>
+        <span>discovered</span>
+        <span>a <span class="demon" id="demon-word">demon</span></span>
+      </div>
+    </div>
+
+    <div class="description">
+      <p>Juniper’s Knot is a short (~30 mins), linear, visual novel about an unlikely meeting. </p>
+      <p>It’s made by Dischan and is free to download and play.</p>
+    </div>
+
+    <div class="screenshots">
+      <img id="thumb1" src="ss1-thumb.jpg" onclick="screenshotClicked(this.id)">
+      <img id="thumb2" src="ss2-thumb.jpg" onclick="screenshotClicked(this.id)">
+      <img id="thumb3" src="ss3-thumb.jpg" onclick="screenshotClicked(this.id)">
+      <img id="thumb4" src="ss4-thumb.jpg" onclick="screenshotClicked(this.id)">
+    </div>
+
+    <div class="downloads">
+      <div><h2>Downloads</h2></div>
+
+      <div class="main-downloads">
+        <div>
+          <h3>English</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_en_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_en_1.0_mac.dmg">Mac</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_en_1.0_lin.tar.bz2">Linux</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Extras</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/CombatPlayer_TheMusicOfJunipersKnot_mp3.zip">Soundtrack (mp3)</a></li>
+            <li><a href="https://dischan.co/files/CombatPlayer_TheMusicOfJunipersKnot_flac.zip">Soundtrack (flac)</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_Wallpaper_GuestArt.zip">Guest Arts/Wallpapers</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="other-downloads">
+        <div>
+          <h3>Indonesian</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_id_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_id_1.0_mac.dmg">Mac</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_id_1.0_lin.tar.bz2">Linux</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Russian</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_ru_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_ru_1.0_mac.dmg">Mac</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_ru_1.0_lin.tar.bz2">Linux</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>German</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_de_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_de_1.0_mac.dmg">Mac</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_de_1.0_lin.tar.bz2">Linux</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Portuguese</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_pt_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_pt_1.0_mac.dmg">Mac</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_pt_1.0_lin.tar.bz2">Linux</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Italian</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_it_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_it_1.0_mac.dmg">Mac</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_it_1.0_lin.tar.bz2">Linux</a></li>
+          </ol>
+        </div>
+
+        <div>
+          <h3>Spanish</h3>
+          <ol>
+            <li><a href="https://dischan.co/files/JunipersKnot_es_1.0_win.exe">Windows</a></li>
+            <li><a href="https://dischan.co/files/JunipersKnot_es_1.0_lin.tar.bz2">Linux</a></li>
+
+          </ol>
+        </div>
+      </div>
+
+      <div class="steam-downloads">
+        <h3>
+          <img src="steam-icon.png">
+          <a href="https://store.steampowered.com/app/687590/Junipers_Knot/">Also available on Steam</a>
+        </h3>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>This is a fansite made by <a href="https://twitter.com/PseudoStygian">Aliya/PseudoMon</a>, not in any way affiliated with Dischan.
+        <br>Juniper’s Knot is © Copyright Dischan Media Inc. </p>
+    </footer>
+
+  </div>
+
+  <div class="footer-image">
+  </div>
+
+  <div class="modal bg" onclick="screenshotUnclicked()">
+  </div>
+  <div class="modal screenshot" onclick="screenshotUnclicked()">
+    <img id="current-screenshot" src="ss1.jpg">
+  </div>
+
+</body>
+</html>
