@@ -7,3 +7,4 @@ This is my first real try at working with CSS Grid. CSS Grid is a trap. 9 times 
 
 JavaScript is used for a small animation and so that when you click on a screenshot thumbnail, the full-size screenshot will pop up. The website should still look fine with JS disabled.
 
+You can see the page live [here](https://pseudomon.github.io/junipers-knot-fanpage/).
